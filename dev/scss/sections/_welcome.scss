@@ -1,21 +1,11 @@
 #welcome {
     // border: 1px solid red;
 
-    @include xl{
-        display: grid;
-        grid-template-columns: auto 1440px auto;
-        grid-template-areas: ". believe .";
-    }
+   
 
     >div {
-        // border: 1px solid red;
-
-
-            >div {
-                border-top: 3px solid $orange;
-                border-bottom: 3px solid $orange;
-                padding: 16px 0px;
-
+                  >div {
+              
                 h1 {
                     font-family: 'Nunito', sans-serif;
                     font-size: rem-calc(25);
@@ -41,26 +31,7 @@
                     }
 
                 }
-            }
-
-        }
-
-        aside {
-
-            background-image: url("../img/believe/hero.jpg");
-            background-size: cover;
-            background-position: center;
-            height: 100vh;
-
-            @include md {
-                grid-area: believe-l;
-                height: 50vh;
-            }
-
-            @include lg {
-                height: 80vh;
-            }
-
+            
             // img{
             //     width: 100%;
             // }
