@@ -1,4 +1,4 @@
-#believe {
+#welcome {
     // border: 1px solid red;
 
     @include xl{
@@ -10,32 +10,6 @@
     >div {
         // border: 1px solid red;
 
-        display: grid;
-        gap: 24px;
-
-        @include md {
-            grid-template-columns: 38vw auto;
-            grid-template-areas: "believe-l believe-r";
-        }
-
-        @include lg {
-            // grid-template-columns: 50vw auto;
-            grid-template-columns: repeat(2, 1fr);
-        }
-
-        @include xl{
-            grid-area: believe;
-        }
-
-        section {
-
-            margin: 0 16px;
-
-            @include md {
-                grid-area: believe-r;
-                display: flex;
-                align-items: center;
-            }
 
             >div {
                 border-top: 3px solid $orange;
