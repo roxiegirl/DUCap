@@ -477,124 +477,126 @@ footer > div aside ul li a:visited {
 }
 
 /* =============
-    Hero
+    Emblem
 ============= */
-#hero {
-  background-image: url("../img/hero.jpg");
+#benz {
+  background-image: url("../img/benz.jpg");
   background-size: cover;
   background-position: center;
   height: 60vh;
 }
 @media (min-width: 768px) {
-  #hero {
+  #benz {
     height: 70vh;
   }
 }
 @media (min-width: 1024px) {
-  #hero {
+  #benz {
     height: 80vh;
   }
+/*
 }
-#hero div h1 {
+#benz div h1 {
   font-weight: 300;
   font-size: 2.75rem;
   color: #fff;
   text-align: center;
 }
+
 @media (min-width: 768px) {
-  #hero div h1 {
+  #benz div h1 {
     font-size: 3.75rem;
   }
 }
 @media (min-width: 1024px) {
-  #hero div h1 {
+  #benz div h1 {
     padding-top: 10%;
     padding-left: 10%;
     text-align: left;
     font-size: 5rem;
   }
 }
-
+*/
 @media (min-width: 1440px) {
-  #believe {
+  #emblem {
     display: grid;
     grid-template-columns: auto 1440px auto;
-    grid-template-areas: ". believe .";
+    grid-template-areas: ". emblem .";
   }
 }
-#believe > div {
+#emblem > div {
   display: grid;
   gap: 24px;
 }
 @media (min-width: 768px) {
-  #believe > div {
+  #emblem> div {
     grid-template-columns: 38vw auto;
     grid-template-areas: "believe-l believe-r";
   }
 }
 @media (min-width: 1024px) {
-  #believe > div {
+  #emblem > div {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 @media (min-width: 1440px) {
-  #believe > div {
+  #emblem> div {
     grid-area: believe;
   }
 }
-#believe > div section {
+#emblem > div section {
   margin: 0 16px;
 }
 @media (min-width: 768px) {
-  #believe > div section {
+  #emblem> div section {
     grid-area: believe-r;
     display: flex;
     align-items: center;
   }
 }
-#believe > div section > div {
+#emblem > div section > div {
   border-top: 3px solid #D87337;
   border-bottom: 3px solid #D87337;
   padding: 16px 0px;
 }
-#believe > div section > div h1 {
-  font-family: "Nunito", sans-serif;
+#emblem > div section > div h1 {
+  font-family: "cinzel";
   font-size: 1.5625rem;
   line-height: 1.75rem;
   padding-bottom: 16px;
   text-align: center;
 }
 @media (min-width: 768px) {
-  #believe > div section > div h1 {
+  #emblem> div section > div h1 {
     font-size: 2.1875rem;
     line-height: 2.1875rem;
     text-align: left;
   }
 }
 @media (min-width: 1440px) {
-  #believe > div section > div h1 {
+  #emblem > div section > div h1 {
     font-size: 2.5rem;
   }
 }
 @media (min-width: 768px) {
-  #believe > div section > div p {
+  #emblem > div section > div p {
     font-size: 1.125rem;
   }
 }
-#believe > div aside {
+#emblem > div aside {
   background-image: url("../img/believe/hero.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
 }
 @media (min-width: 768px) {
-  #believe > div aside {
+  #emblem > div aside {
     grid-area: believe-l;
     height: 50vh;
   }
 }
 @media (min-width: 1024px) {
-  #believe > div aside {
+  #emblem > div aside {
     height: 80vh;
   }
 }
