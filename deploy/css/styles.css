@@ -47,6 +47,7 @@ main {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+  color: black;
 }
 
 /* Grouping content
@@ -392,8 +393,8 @@ body {
 }
 
 h1, h2, h3, h4 {
-  margin: 0;
-  padding: 0;
+  margin: 30;
+  padding: 10;
 }
 
 p {
